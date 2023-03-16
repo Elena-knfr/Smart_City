@@ -1,9 +1,3 @@
-"""
-This is the Newmarket Camera endpoint for the API
-- `/newmarket_camera`: returns recent drone camera updates
-- `/camfeed`: return the output picture of the camera
-"""
-
 from __future__ import absolute_import
 from flask_restful import fields, marshal
 from flask import abort, send_file
