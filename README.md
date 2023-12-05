@@ -5,4 +5,4 @@ This Python script is designed for monitoring and reporting vehicle counts in a 
 - Interacts with an Elasticsearch server to retrieve and store data related to parking area occupancy.
 - Fetches the latest timestamped entry from the Elasticsearch index, extracting information such as counts and timestamps.
 - Retrieves additional data from multiple Elasticsearch indices, aggregates the information, and calculates the total count of vehicles in the parking area.
----> Final result, including the timestamp, total counts, and available spots, is stored in a JSON file (report.json) for further analysis or reporting.
+- ---> Final result, including the timestamp, total counts, and available spots, is stored in a JSON file (report.json) for further analysis or reporting.
